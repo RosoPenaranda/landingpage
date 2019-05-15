@@ -1,0 +1,288 @@
+body{
+  background-color: #e2ae25;
+}
+
+#main {
+  padding-top: 10px;
+}
+.contac {
+  background-color: #330066; 
+  margin-bottom:20px;
+}
+
+.contac a {
+  color: white;
+}
+#main p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify; 
+}
+
+@media (max-width: 768px){
+  .smedia img {
+    width: 50px;
+  }
+
+  #main p {
+    margin-top:50px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: justify; 
+  }
+
+  .calendario{
+    width: 200px;
+    height: 520px ;
+    border-radius: 10px !important;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+  } 
+
+.jason img {
+  width: 100%;
+  margin-left:-85px;
+  margin-top: -50px;
+  margin-bottom: 1px;
+  z-index: 2;
+}
+
+.smedia {
+  font-size: 26px;
+  font-weight: 600px;
+  font-style: italic;
+}
+
+#meetus {
+  width:240px;
+  margin-top: 50px;
+}
+
+
+#subscribe img {
+  margin: 20px 0px 40px 0px;
+  width: 100%;
+  }
+
+  
+} /*fin @media 768*/
+
+
+@media (min-width: 769px) and  (max-width: 992px) {
+
+  #main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify; 
+    margin-left:-70px ;
+  }
+
+  #logo{
+    width: 130px;
+  }
+  .calendario{
+    width: 350;
+    height: 600;
+    border-radius: 10px !important;
+    background-color: white;
+  } 
+
+  #schedule {
+    width: 160px;
+    margin-bottom: -30px;
+    margin-left: -30px;
+  }
+
+  .jason img {
+    height: 450px !important;
+    z-index: 0;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: -160px;
+    margin-right: -140px;
+  }
+
+  
+  .smedia {
+    margin-left: -70px;
+    margin-bottom: -20px;
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .smedia img{
+    width: 50px;  
+  }
+  
+  .meetus img {
+    width:130px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: -100px;
+    z-index: 2;
+  }
+
+  #subscribe {
+    margin-top: 0px !important;
+  }
+  
+  #SubscribeHelp {
+    color: white !important;
+    font-size: 9px;
+  }
+  
+  #subscribe {
+    background: #6600cc;
+  }
+  
+  #subscribe .form-group {
+    margin-top: 20px;
+  }
+  
+  #subscribe button {
+    background-color: #e2ae25;
+    color: black;
+  }
+  
+  #subscribe img {
+    margin-top:30px;
+    width: 200px ;
+  }
+
+  #footer {
+    font-size: 15px;
+  }
+} /*fin @media*/
+
+@media (min-width: 992px) and  (max-width: 1199.98px) {
+
+  .calendario{
+    width: 400;
+    height: 520px;
+    border-radius: 10px !important;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: white;
+  } 
+
+  #schedule {
+    width: 150px;
+    margin-bottom: -190px;
+    margin-left:90px;
+  }
+
+  .jason img {
+    height: 420px;
+    z-index: 2;
+    margin-top: -40px
+  }
+
+  
+  .smedia {
+    margin-bottom: -20px;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .smedia img{
+    width: 50px;  
+  }
+  
+  .meetus img {
+    width:150px;
+    margin-top: 250px;
+    margin-left: 20px;
+    margin-right: -120px;
+  }
+
+  #subscribe {
+    margin-top: -60px;
+  }
+
+  #subscribe img {
+    margin: 20px 0px 40px 50px;
+    width: 230px;
+  }
+
+
+} /*fin @media 992*/
+
+@media (min-width: 1200px){
+  .smedia img {
+    width: 60px;
+  }
+  #schedule {
+    width: 180px;
+    margin-bottom: -70px;
+    margin-left:50px;
+  }
+  .calendario{
+    width: 600px;
+    height: 550px;
+    border-radius: 10px !important;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: white;
+  } 
+
+.jason img {
+  height: 450px;
+  z-index: 2;
+  margin-top: -60px
+}
+
+.smedia {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.meetus img {
+  width:200px;
+  margin-top: 250px;
+  margin-left: 20px;
+  margin-right: -120px;
+}
+
+#subscribe {
+  margin-top: -60px;
+}
+
+  #subscribe img {
+    margin: 20px 0px 40px 0px;
+    width: 310px;
+  }
+} /*fin @media 1200*/
+
+
+
+
+#SubscribeHelp {
+  color: white !important;
+  font-size: 9px;
+}
+
+#subscribe {
+  background: #6600cc;
+}
+
+#subscribe .form-group {
+  margin-top: 20px;
+}
+
+#subscribe button {
+  background-color: #e2ae25;
+  color: black;
+}
+
+
+#footer {
+  background-color: #330066; 
+  
+}
+
+#footer a {
+  color: white;
+}
